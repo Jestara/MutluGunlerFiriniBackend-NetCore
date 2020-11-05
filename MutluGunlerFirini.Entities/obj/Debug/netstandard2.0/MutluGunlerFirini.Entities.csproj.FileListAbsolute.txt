@@ -1,0 +1,12 @@
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\bin\Debug\netstandard2.0\MutluGunlerFirini.Entities.deps.json
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\bin\Debug\netstandard2.0\MutluGunlerFirini.Entities.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\bin\Debug\netstandard2.0\MutluGunlerFirini.Entities.pdb
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\bin\Debug\netstandard2.0\MutluGunlerFirini.Core.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\bin\Debug\netstandard2.0\MutluGunlerFirini.Core.pdb
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\obj\Debug\netstandard2.0\MutluGunlerFirini.Entities.csprojAssemblyReference.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\obj\Debug\netstandard2.0\MutluGunlerFirini.Entities.AssemblyInfoInputs.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\obj\Debug\netstandard2.0\MutluGunlerFirini.Entities.AssemblyInfo.cs
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\obj\Debug\netstandard2.0\MutluGunlerFirini.Entities.csproj.CoreCompileInputs.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\obj\Debug\netstandard2.0\MutluGunlerFirini.Entities.csproj.CopyComplete
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\obj\Debug\netstandard2.0\MutluGunlerFirini.Entities.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Entities\obj\Debug\netstandard2.0\MutluGunlerFirini.Entities.pdb
