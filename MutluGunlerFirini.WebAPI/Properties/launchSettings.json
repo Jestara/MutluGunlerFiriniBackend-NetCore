@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/MutluGunlerFirini.WebAPI",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:53511",
       "sslPort": 44352
@@ -18,12 +22,13 @@
       }
     },
     "MutluGunlerFirini.WebAPI": {
-      "commandName": "Project",
+      "commandName": "IIS",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/products/getall",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
+      "ancmHostingModel": "OutOfProcess",
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     }
   }

@@ -5,7 +5,9 @@ using MutluGunlerFirini.DataAccess.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MutluGunlerFirini.Business.Concrete
 {
@@ -22,6 +24,19 @@ namespace MutluGunlerFirini.Business.Concrete
         {
             _userDal.Add(user);
             return new SuccessResult(Messages.UserAdded);
+        }
+
+        public async Task<User> Authenticate(string username, string password)
+        {
+            var user = await Task.Run(() => _userDal.GetList(x => x.Email == username && x.Password == password).FirstOrDefault());
+
+            // return null if user not found
+            if (user == null)
+                return null;
+
+            // authentication successful so return user details without password
+            user.Password = null;
+            return user;
         }
 
         public IResult Delete(User user)

@@ -68,3 +68,4 @@ C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.WebAPI\bin\Debug
 C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.WebAPI\obj\Debug\netcoreapp3.1\MutluGunlerFirini.WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.WebAPI\obj\Debug\netcoreapp3.1\MutluGunlerFirini.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.WebAPI\obj\Debug\netcoreapp3.1\MutluGunlerFirini.WebAPI.csproj.CopyComplete
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\web.config

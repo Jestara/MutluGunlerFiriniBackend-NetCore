@@ -3,6 +3,7 @@ using MutluGunlerFirini.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MutluGunlerFirini.Business.Abstract
 {
@@ -13,5 +14,6 @@ namespace MutluGunlerFirini.Business.Abstract
         IResult Add(User user);
         IResult Delete(User user);
         IResult Update(User user);
+        Task<User> Authenticate(string username, string password);
     }
 }
