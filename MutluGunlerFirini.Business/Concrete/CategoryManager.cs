@@ -40,6 +40,11 @@ namespace MutluGunlerFirini.Business.Concrete
             return new SuccessDataResult<List<Category>>(_categoryDal.GetList());
         }
 
+        public IDataResult<List<Category>> GetListByMenu(int menuId)
+        {
+            return new SuccessDataResult<List<Category>>(_categoryDal.GetList(c => c.MenuId== menuId));
+        }
+
         public IResult Update(Category category)
         {
             _categoryDal.Update(category);

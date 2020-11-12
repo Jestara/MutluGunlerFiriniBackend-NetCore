@@ -1,0 +1,9 @@
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\bin\Release\netstandard2.0\MutluGunlerFirini.Core.deps.json
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\bin\Release\netstandard2.0\MutluGunlerFirini.Core.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\bin\Release\netstandard2.0\MutluGunlerFirini.Core.pdb
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.csprojAssemblyReference.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.AssemblyInfoInputs.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.AssemblyInfo.cs
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.csproj.CoreCompileInputs.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.pdb

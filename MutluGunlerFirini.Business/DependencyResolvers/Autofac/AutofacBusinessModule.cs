@@ -23,6 +23,9 @@ namespace MutluGunlerFirini.Business.DependencyResolvers.Autofac
             builder.RegisterType<ProductManager>().As<IProductService>();
             builder.RegisterType<EfProductDal>().As<IProductDal>();
 
+            builder.RegisterType<MenuManager>().As<IMenuService>();
+            builder.RegisterType<EfMenuDal>().As<IMenuDal>();
+
         }
     }
 }

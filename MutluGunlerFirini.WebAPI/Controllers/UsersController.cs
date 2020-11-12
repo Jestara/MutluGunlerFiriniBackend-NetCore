@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MutluGunlerFirini.Business.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
+using MutluGunlerFirini.Entities.Dtos;
 
 namespace MutluGunlerFirini.WebAPI.Controllers
 {
@@ -20,6 +21,17 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         public UsersController(IUserService userService)
         {
             _userService = userService;
+        }
+
+        [HttpPost("login")]
+        public IActionResult Login(UserForLoginDto userForLoginDto)
+        {
+            var result = _userService.Login(userForLoginDto.Email, userForLoginDto.Password);
+            if (result.Success)
+            {
+                return Ok(result.Data);
+            }
+            return BadRequest(result.Message);
         }
 
         [HttpGet("getall")]

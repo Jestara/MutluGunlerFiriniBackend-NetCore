@@ -9,6 +9,7 @@ namespace MutluGunlerFirini.Business.Abstract
 {
     public interface IUserService
     {
+        IDataResult<User> Login(string email, string password);
         IDataResult<User> GetById(int userId);
         IDataResult<List<User>> GetList();
         IResult Add(User user);

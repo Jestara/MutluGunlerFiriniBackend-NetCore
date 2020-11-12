@@ -14,10 +14,20 @@ namespace MutluGunlerFirini.Business.Concrete
     public class UserManager : IUserService
     {
         private IUserDal _userDal;
+        private List<User> _users = new List<User>
+        {
+            new User { FirstName = "Test", LastName = "User", Email = "test", Password = "test" } ,
+            new User { FirstName = "Test", LastName = "User", Email = "celil@gmail.com", Password = "1980" }
+        };
 
         public UserManager(IUserDal userDal)
         {
             _userDal = userDal;
+        }
+
+        public IDataResult<User> Login(string email, string password)
+        {
+            return new SuccessDataResult<User>(_userDal.GetList(u => u.Email == email && u.Password == password).FirstOrDefault());
         }
 
         public IResult Add(User user)
@@ -28,7 +38,7 @@ namespace MutluGunlerFirini.Business.Concrete
 
         public async Task<User> Authenticate(string username, string password)
         {
-            var user = await Task.Run(() => _userDal.GetList(x => x.Email == username && x.Password == password).FirstOrDefault());
+            var user = await Task.Run(() => _users.SingleOrDefault(x => x.Email == username && x.Password == password));
 
             // return null if user not found
             if (user == null)

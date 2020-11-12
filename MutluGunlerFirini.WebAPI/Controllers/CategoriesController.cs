@@ -33,6 +33,17 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             return BadRequest(result.Message);
         }
 
+        [HttpGet("getlistbymenu")]
+        public IActionResult GetListByMenu(int menuId)
+        {
+            var result = _categoryService.GetListByMenu(menuId);
+            if (result.Success)
+            {
+                return Ok(result.Data);
+            }
+            return BadRequest(result.Message);
+        }
+
 
         [HttpGet("getbyid")]
         public IActionResult GetById(int categoryId)

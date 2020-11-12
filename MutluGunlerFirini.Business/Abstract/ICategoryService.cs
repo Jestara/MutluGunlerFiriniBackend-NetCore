@@ -10,6 +10,7 @@ namespace MutluGunlerFirini.Business.Abstract
     {
         IDataResult<Category> GetById(int categoryId);
         IDataResult<List<Category>> GetList();
+        IDataResult<List<Category>> GetListByMenu(int menuId);
         IResult Add(Category category);
         IResult Delete(Category category);
         IResult Update(Category category);

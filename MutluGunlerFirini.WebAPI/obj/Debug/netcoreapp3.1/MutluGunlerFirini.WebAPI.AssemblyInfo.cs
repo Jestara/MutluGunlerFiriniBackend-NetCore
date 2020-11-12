@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("142fbc3e-fb3e-475f-a4e8-d9b71d6f2dae")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MutluGunlerFirini.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

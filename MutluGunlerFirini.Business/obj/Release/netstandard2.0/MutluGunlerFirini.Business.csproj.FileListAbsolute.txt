@@ -1,0 +1,16 @@
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Business.deps.json
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Business.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Business.pdb
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Core.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.DataAccess.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Entities.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Core.pdb
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.DataAccess.pdb
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Entities.pdb
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.csprojAssemblyReference.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.AssemblyInfoInputs.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.AssemblyInfo.cs
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.csproj.CoreCompileInputs.cache
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.csproj.CopyComplete
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.dll
+C:\Users\celil\source\repos\MutluGunlerFirini\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.pdb
