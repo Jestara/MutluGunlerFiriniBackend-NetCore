@@ -119,16 +119,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/12/2020 15:42:44</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.deps.json">
-      <publishTime>11/12/2020 15:42:47</publishTime>
+      <publishTime>11/15/2020 22:05:18</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.dll">
-      <publishTime>11/12/2020 15:42:47</publishTime>
+      <publishTime>11/15/2020 22:05:15</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.exe">
-      <publishTime>11/12/2020 15:42:47</publishTime>
+      <publishTime>11/15/2020 22:05:15</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.pdb">
-      <publishTime>11/12/2020 15:42:47</publishTime>
+      <publishTime>11/15/2020 22:05:15</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.runtimeconfig.json">
       <publishTime>11/12/2020 15:42:48</publishTime>
@@ -179,7 +179,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>11/12/2020 15:42:50</publishTime>
+      <publishTime>11/15/2020 22:05:20</publishTime>
     </File>
   </ItemGroup>
 </Project>

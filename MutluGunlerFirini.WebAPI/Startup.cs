@@ -28,6 +28,14 @@ namespace MutluGunlerFirini.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder =>
+                {
+                    builder.WithOrigins("http://localhost:4201", "http://localhost:4200", "https://mutlugunlerfirini.com.tr", "https://admin.mutlugunlerfirini.com.tr", "http://eserhizliokuma.com", "http://admin.eserhizliokuma.com").AllowAnyHeader()
+                    .AllowAnyMethod().AllowCredentials();
+                });
+            });
             services.AddAuthentication("BasicAuthentication")
                 .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
         }
@@ -43,6 +51,8 @@ namespace MutluGunlerFirini.WebAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthentication();
 
