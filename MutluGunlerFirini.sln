@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutluGunlerFirini.Core", "MutluGunlerFirini.Core\MutluGunlerFirini.Core.csproj", "{3C7B79CB-B11F-4ADA-B8A6-EFE1BA4A7F86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutluGunlerFirini.Core", "MutluGunlerFirini.Core\MutluGunlerFirini.Core.csproj", "{3C7B79CB-B11F-4ADA-B8A6-EFE1BA4A7F86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutluGunlerFirini.DataAccess", "MutluGunlerFirini.DataAccess\MutluGunlerFirini.DataAccess.csproj", "{D6085113-C61B-4860-8BA0-84864E07CC48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutluGunlerFirini.DataAccess", "MutluGunlerFirini.DataAccess\MutluGunlerFirini.DataAccess.csproj", "{D6085113-C61B-4860-8BA0-84864E07CC48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutluGunlerFirini.Entities", "MutluGunlerFirini.Entities\MutluGunlerFirini.Entities.csproj", "{2185DD42-0C0D-48AC-9F51-0F30F5550F41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutluGunlerFirini.Entities", "MutluGunlerFirini.Entities\MutluGunlerFirini.Entities.csproj", "{2185DD42-0C0D-48AC-9F51-0F30F5550F41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutluGunlerFirini.Business", "MutluGunlerFirini.Business\MutluGunlerFirini.Business.csproj", "{2AE01AA2-DFE9-4EF2-9A9F-BE4ED0BDE80F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutluGunlerFirini.Business", "MutluGunlerFirini.Business\MutluGunlerFirini.Business.csproj", "{2AE01AA2-DFE9-4EF2-9A9F-BE4ED0BDE80F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutluGunlerFirini.WebAPI", "MutluGunlerFirini.WebAPI\MutluGunlerFirini.WebAPI.csproj", "{6E4CA4CC-85FC-4086-B054-AB7C0872C96E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MutluGunlerFirini.WebAPI", "MutluGunlerFirini.WebAPI\MutluGunlerFirini.WebAPI.csproj", "{6E4CA4CC-85FC-4086-B054-AB7C0872C96E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

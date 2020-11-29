@@ -3,6 +3,7 @@ using MutluGunlerFirini.Business.Constants;
 using MutluGunlerFirini.Core.Utilities.Results;
 using MutluGunlerFirini.DataAccess.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
+using MutluGunlerFirini.Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,8 +19,9 @@ namespace MutluGunlerFirini.Business.Concrete
             _menuDal = menuDal;
         }
 
-        public IResult Add(Menu menu)
+        public IResult Add(MenuDto menuDto)
         {
+            Menu menu = new Menu { Name = menuDto.Name, Description = menuDto.Description, ImageUrl = menuDto.ImageUrl };
             _menuDal.Add(menu);
             return new SuccessResult(Messages.MenuAdded);
         }
