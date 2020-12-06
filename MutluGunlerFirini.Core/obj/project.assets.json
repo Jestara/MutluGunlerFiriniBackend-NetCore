@@ -6199,19 +6199,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\celil\\.nuget\\packages\\": {}
+    "C:\\Users\\Celil\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\celil\\source\\repos\\MutluGunlerFirini\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
       "projectName": "MutluGunlerFirini.Core",
-      "projectPath": "C:\\Users\\celil\\source\\repos\\MutluGunlerFirini\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
-      "packagesPath": "C:\\Users\\celil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\celil\\source\\repos\\MutluGunlerFirini\\MutluGunlerFirini.Core\\obj\\",
+      "projectPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+      "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6225,6 +6225,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -6236,6 +6237,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -6258,7 +6260,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

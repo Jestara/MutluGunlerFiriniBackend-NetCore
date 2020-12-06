@@ -6,21 +6,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe51gh8ZgVkKlNnace1LxXAAAAAACAAAAAAAQZgAAAAEAACAAAADkw327OA9uYVinr+C7EzFxapvtw59F2D3gosA7C85vDgAAAAAOgAAAAAIAACAAAABz/AVBU9lxVX1AfyCTS/u90T2DL42fovzwi3oT5aYiKyAAAACYk7jt59bu5f9ows+UscBQyM+e7Vg7EiXO8GEW4LC5bUAAAADqTT2NLULE75LjyUMFLW8EXTXXNIwg9F0+43CxTaQxK2RK3NxHkgoaYoyrSrwbPtt+4w5ZuE13UrEn+Za73Gs+</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxWbvAMnGJE2NAIsiMQP+CAAAAAACAAAAAAAQZgAAAAEAACAAAADBrfsyNNfZLQzvV7pZUG8kjvQkzpDxJF8KlNp+ca2cHQAAAAAOgAAAAAIAACAAAAAMD6YYIZjwtBXVWIO6WXV5T7hiMtXC8zqP/23MYJV/RSAAAAB8DeVI9msWGvspwWA5U8/bb8MdJx2Yc5q1XpVwoVvGMEAAAAARODvOfW7wa53ovfmcH5cmHKJ5EEiW+G3GmjM/IYL3gwXbPzN9KDHASWIqa81U1ZGfbiVTkq0/Rp/q77Zi00/v</EncryptedPassword>
     <_PublishTargetUrl>ftp://77.245.159.18/service.mutlugunlerfirini.com.tr</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>11/03/2020 15:28:17</publishTime>
+      <publishTime>11/29/2020 15:54:05</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>11/03/2020 15:28:18</publishTime>
+      <publishTime>11/29/2020 15:54:05</publishTime>
     </File>
     <File Include="Autofac.dll">
-      <publishTime>09/28/2020 18:37:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Autofac.Extensions.DependencyInjection.dll">
       <publishTime>10/29/2020 13:06:32</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Http.Features.dll">
+      <publishTime>10/26/2020 22:59:12</publishTime>
     </File>
     <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
       <publishTime>04/14/2020 22:39:12</publishTime>
@@ -74,7 +77,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/23/2020 16:04:36</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Primitives.dll">
-      <publishTime>09/23/2020 16:05:20</publishTime>
+      <publishTime>10/19/2020 18:48:36</publishTime>
     </File>
     <File Include="Microsoft.Identity.Client.dll">
       <publishTime>04/29/2019 22:04:14</publishTime>
@@ -95,43 +98,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/24/2019 19:56:06</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Business.dll">
-      <publishTime>11/12/2020 15:42:46</publishTime>
+      <publishTime>05/12/2020 18:23:56</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Business.pdb">
-      <publishTime>11/12/2020 15:42:46</publishTime>
+      <publishTime>12/05/2020 18:23:56</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Core.dll">
-      <publishTime>11/12/2020 15:42:43</publishTime>
+      <publishTime>05/12/2020 18:23:55</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Core.pdb">
-      <publishTime>11/12/2020 15:42:43</publishTime>
+      <publishTime>12/05/2020 18:23:55</publishTime>
     </File>
     <File Include="MutluGunlerFirini.DataAccess.dll">
-      <publishTime>11/12/2020 15:42:45</publishTime>
+      <publishTime>05/12/2020 18:23:56</publishTime>
     </File>
     <File Include="MutluGunlerFirini.DataAccess.pdb">
-      <publishTime>11/12/2020 15:42:45</publishTime>
+      <publishTime>12/05/2020 18:23:56</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Entities.dll">
-      <publishTime>11/12/2020 15:42:44</publishTime>
+      <publishTime>05/12/2020 18:23:56</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Entities.pdb">
-      <publishTime>11/12/2020 15:42:44</publishTime>
+      <publishTime>12/05/2020 18:23:56</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.deps.json">
-      <publishTime>11/15/2020 22:05:18</publishTime>
+      <publishTime>12/05/2020 19:14:32</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.dll">
-      <publishTime>11/15/2020 22:05:15</publishTime>
+      <publishTime>12/05/2020 19:14:29</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.exe">
-      <publishTime>11/15/2020 22:05:15</publishTime>
+      <publishTime>12/05/2020 19:14:29</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.pdb">
-      <publishTime>11/15/2020 22:05:15</publishTime>
+      <publishTime>12/05/2020 19:14:29</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.runtimeconfig.json">
-      <publishTime>11/12/2020 15:42:48</publishTime>
+      <publishTime>12/05/2020 18:23:58</publishTime>
     </File>
     <File Include="Newtonsoft.Json.dll">
       <publishTime>03/20/2017 20:03:18</publishTime>
@@ -172,6 +175,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="System.IdentityModel.Tokens.Jwt.dll">
       <publishTime>06/24/2019 19:49:50</publishTime>
     </File>
+    <File Include="System.IO.Pipelines.dll">
+      <publishTime>10/19/2020 18:51:26</publishTime>
+    </File>
     <File Include="System.Runtime.Caching.dll">
       <publishTime>05/15/2018 13:29:40</publishTime>
     </File>
@@ -179,7 +185,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>11/15/2020 22:05:20</publishTime>
+      <publishTime>12/05/2020 19:14:32</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Menu/1987d810-5ff6-4f8f-a96e-abd0fd40234d.jpg">
+      <publishTime>12/05/2020 17:17:08</publishTime>
+    </File>
+    <File Include="wwwroot/Images/Menu/a001ff7c-ef9a-461a-9d3d-7a1ed3db47fb.jpg">
+      <publishTime>12/05/2020 17:17:51</publishTime>
     </File>
   </ItemGroup>
 </Project>

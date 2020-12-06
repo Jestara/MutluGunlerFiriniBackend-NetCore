@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MutluGunlerFirini.Business.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
+using MutluGunlerFirini.Entities.Dtos;
 
 namespace MutluGunlerFirini.WebAPI.Controllers
 {
@@ -16,10 +19,13 @@ namespace MutluGunlerFirini.WebAPI.Controllers
     public class MenusController : ControllerBase
     {
         private IMenuService _menuService;
+        
+        private IHostingEnvironment _hostingEnvironment;
 
-        public MenusController(IMenuService menuService)
+        public MenusController(IMenuService menuService, IHostingEnvironment environment)
         {
             _menuService = menuService;
+            _hostingEnvironment = environment;
         }
 
         [HttpGet("getall")]
@@ -47,12 +53,32 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(Menu menu)
+        public async Task<IActionResult> Add([FromForm] MenuDto menuDto)
         {
-            var result = _menuService.Add(menu);
+            string imageUrl = "";
+            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
+            if (!Directory.Exists(uploads))
+            {
+                Directory.CreateDirectory(uploads);
+            }
+            if (menuDto.File.Length > 0)
+            {
+                Guid guid = Guid.NewGuid();
+                string filename = menuDto.File.FileName;
+                string[] separate = filename.Split('.');
+                string name = guid + "." + separate[1];
+                var filePath = Path.Combine(uploads, name);
+                imageUrl = "mutlugunlerfirini.com.tr/service.mutlugunlerfirini.com.tr/Images/Menu/" + name;
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await menuDto.File.CopyToAsync(fileStream);
+                }
+            }
+            menuDto.ImageUrl = imageUrl;
+            var result = _menuService.Add(menuDto);
             if (result.Success)
             {
-                return Ok(result.Message);
+                return Ok();
             }
 
             return BadRequest(result.Message);
@@ -64,7 +90,7 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             var result = _menuService.Update(menu);
             if (result.Success)
             {
-                return Ok(result.Message);
+                return Ok();
             }
 
             return BadRequest(result.Message);
@@ -76,7 +102,7 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             var result = _menuService.Delete(menu);
             if (result.Success)
             {
-                return Ok(result.Message);
+                return Ok();
             }
 
             return BadRequest(result.Message);
