@@ -3,6 +3,7 @@ using MutluGunlerFirini.Business.Constants;
 using MutluGunlerFirini.Core.Utilities.Results;
 using MutluGunlerFirini.DataAccess.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
+using MutluGunlerFirini.Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,8 +19,9 @@ namespace MutluGunlerFirini.Business.Concrete
             _categoryDal = categoryDal;
         }
 
-        public IResult Add(Category category)
+        public IResult Add(CategoryDto categoryDto)
         {
+            Category category = new Category { Description = categoryDto.Description, ImageUrl = categoryDto.ImageUrl, Name = categoryDto.Name, MenuId = categoryDto.MenuId };
             _categoryDal.Add(category);
             return new SuccessResult(Messages.CategoryAdded);
         }

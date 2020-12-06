@@ -68,7 +68,7 @@ namespace MutluGunlerFirini.WebAPI.Controllers
                 string[] separate = filename.Split('.');
                 string name = guid + "." + separate[1];
                 var filePath = Path.Combine(uploads, name);
-                imageUrl = "mutlugunlerfirini.com.tr/service.mutlugunlerfirini.com.tr/Images/Menu/" + name;
+                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Menu/" + name;
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     await menuDto.File.CopyToAsync(fileStream);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q6QjAzogT8giYZs4mS/Aq8ca08SdPzJSBc1qXD9TDhusPrIcBrnfLt/I455ffROqD20MC8iv6wDfv6dUkp9xQw==",
+  "dgSpecHash": "l3PENoTy8hOuW6oWava0hrGd0u213WF3wkDOCS2BN8TJfuOaQ9pVo9RDDAGBPAhiGbvi/RXtLFii3A7R/cEDag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
+  "projectFilePath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Celil\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\Celil\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.0\\microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",

@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MutluGunlerFirini.Business.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
+using MutluGunlerFirini.Entities.Dtos;
 
 namespace MutluGunlerFirini.WebAPI.Controllers
 {
@@ -16,10 +19,12 @@ namespace MutluGunlerFirini.WebAPI.Controllers
     public class ProductsController : ControllerBase
     {
         private IProductService _productService;
+        private IHostingEnvironment _hostingEnvironment;
 
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductService productService, IHostingEnvironment environment)
         {
             _productService = productService;
+            _hostingEnvironment = environment;
         }
 
         [HttpGet("getall")]
@@ -57,12 +62,32 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(Product product)
+        public async Task<IActionResult> Add([FromForm] ProductDto productDto)
         {
-            var result = _productService.Add(product);
+            string imageUrl = "";
+            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Product");
+            if (!Directory.Exists(uploads))
+            {
+                Directory.CreateDirectory(uploads);
+            }
+            if (productDto.File.Length > 0)
+            {
+                Guid guid = Guid.NewGuid();
+                string filename = productDto.File.FileName;
+                string[] separate = filename.Split('.');
+                string name = guid + "." + separate[1];
+                var filePath = Path.Combine(uploads, name);
+                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Product/" + name;
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await productDto.File.CopyToAsync(fileStream);
+                }
+            }
+            productDto.ImageUrl = imageUrl;
+            var result = _productService.Add(productDto);
             if (result.Success)
             {
-                return Ok(result.Message);
+                return Ok();
             }
 
             return BadRequest(result.Message);

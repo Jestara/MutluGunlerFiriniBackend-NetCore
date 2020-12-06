@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MutluGunlerFirini.Business.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
+using MutluGunlerFirini.Entities.Dtos;
 
 namespace MutluGunlerFirini.WebAPI.Controllers
 {
@@ -16,10 +19,12 @@ namespace MutluGunlerFirini.WebAPI.Controllers
     public class CategoriesController : ControllerBase
     {
         private ICategoryService _categoryService;
+        private IHostingEnvironment _hostingEnvironment;
 
-        public CategoriesController(ICategoryService categoryService)
+        public CategoriesController(ICategoryService categoryService, IHostingEnvironment environment)
         {
             _categoryService = categoryService;
+            _hostingEnvironment = environment;
         }
 
         [HttpGet("getall")]
@@ -58,12 +63,32 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(Category category)
+        public async Task<IActionResult> Add([FromForm] CategoryDto categoryDto)
         {
-            var result = _categoryService.Add(category);
+            string imageUrl = "";
+            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
+            if (!Directory.Exists(uploads))
+            {
+                Directory.CreateDirectory(uploads);
+            }
+            if (categoryDto.File.Length > 0)
+            {
+                Guid guid = Guid.NewGuid();
+                string filename = categoryDto.File.FileName;
+                string[] separate = filename.Split('.');
+                string name = guid + "." + separate[1];
+                var filePath = Path.Combine(uploads, name);
+                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Category/" + name;
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await categoryDto.File.CopyToAsync(fileStream);
+                }
+            }
+            categoryDto.ImageUrl = imageUrl;
+            var result = _categoryService.Add(categoryDto);
             if (result.Success)
             {
-                return Ok(result.Message);
+                return Ok();
             }
 
             return BadRequest(result.Message);

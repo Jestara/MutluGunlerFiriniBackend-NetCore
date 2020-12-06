@@ -3,6 +3,7 @@ using MutluGunlerFirini.Business.Constants;
 using MutluGunlerFirini.Core.Utilities.Results;
 using MutluGunlerFirini.DataAccess.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
+using MutluGunlerFirini.Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -18,8 +19,9 @@ namespace MutluGunlerFirini.Business.Concrete
             _productDal = productDal;
         }
 
-        public IResult Add(Product product)
+        public IResult Add(ProductDto productDto)
         {
+            Product product = new Product { Name = productDto.Name, ImageUrl = productDto.ImageUrl, Description = productDto.Description, CategoryId = productDto.CategoryId, Price = productDto.Price };
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
         }

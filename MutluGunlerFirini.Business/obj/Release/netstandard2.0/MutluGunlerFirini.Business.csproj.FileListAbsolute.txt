@@ -46,3 +46,19 @@ C:\Users\Celil\Desktop\MutluGunlerFiriniBackend-NetCore-imageupload\MutluGunlerF
 C:\Users\Celil\Desktop\MutluGunlerFiriniBackend-NetCore-imageupload\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.csproj.CopyComplete
 C:\Users\Celil\Desktop\MutluGunlerFiriniBackend-NetCore-imageupload\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.dll
 C:\Users\Celil\Desktop\MutluGunlerFiriniBackend-NetCore-imageupload\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.pdb
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Business.deps.json
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Business.dll
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Business.pdb
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Core.dll
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.DataAccess.dll
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Entities.dll
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Core.pdb
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.DataAccess.pdb
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\bin\Release\netstandard2.0\MutluGunlerFirini.Entities.pdb
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.csprojAssemblyReference.cache
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.AssemblyInfoInputs.cache
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.AssemblyInfo.cs
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.csproj.CoreCompileInputs.cache
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.csproj.CopyComplete
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.dll
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Business\obj\Release\netstandard2.0\MutluGunlerFirini.Business.pdb

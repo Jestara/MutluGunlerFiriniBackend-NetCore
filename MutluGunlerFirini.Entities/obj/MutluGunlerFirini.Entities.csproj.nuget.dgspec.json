@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {}
+    "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
+    "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
         "projectName": "MutluGunlerFirini.Core",
-        "projectPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+        "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
         "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\obj\\",
+        "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
+    "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
         "projectName": "MutluGunlerFirini.Entities",
-        "projectPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
+        "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
         "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
+              "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
+                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
               }
             }
           }

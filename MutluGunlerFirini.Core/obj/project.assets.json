@@ -6204,11 +6204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
       "projectName": "MutluGunlerFirini.Core",
-      "projectPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+      "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
       "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Core\\obj\\",
+      "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3JxXkE9wDcqkRBgNQuJmXt1wa1r9k9Wo8wN+4FXx6B+T9oFwpBT6a9OelYVHfK2kZ8fbUYeX5uTFdod1krjEmA==",
+  "dgSpecHash": "qq6zEICa2s5Kj6WBY8K83rit0PBVTibhrvHTump8nrmPVidjpZ4OBN3XpbQ35L+SJo06JFbAIhz/ef9ANkCXFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Celil\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.0\\microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",
     "C:\\Users\\Celil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

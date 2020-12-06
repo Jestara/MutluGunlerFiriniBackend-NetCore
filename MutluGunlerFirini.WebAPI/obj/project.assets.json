@@ -5868,11 +5868,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
       "projectName": "MutluGunlerFirini.WebAPI",
-      "projectPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
+      "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5891,8 +5891,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj": {
-              "projectPath": "C:\\Users\\Celil\\Desktop\\MutluGunlerFiriniBackend-NetCore-imageupload\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj"
+            "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj": {
+              "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj"
             }
           }
         }
