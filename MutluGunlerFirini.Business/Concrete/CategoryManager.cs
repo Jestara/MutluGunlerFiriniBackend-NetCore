@@ -49,7 +49,7 @@ namespace MutluGunlerFirini.Business.Concrete
 
         public IResult Update(CategoryDto categoryDto)
         {
-            Category category = new Category { Description = categoryDto.Description, ImageUrl = categoryDto.ImageUrl, Name = categoryDto.Name, MenuId = categoryDto.MenuId };
+            Category category = new Category { Id=categoryDto.Id,Description = categoryDto.Description, ImageUrl = categoryDto.ImageUrl, Name = categoryDto.Name, MenuId = categoryDto.MenuId };
             _categoryDal.Update(category);
             return new SuccessResult(Messages.CategoryUpdated);
         }

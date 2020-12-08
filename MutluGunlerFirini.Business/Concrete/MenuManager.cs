@@ -44,7 +44,7 @@ namespace MutluGunlerFirini.Business.Concrete
 
         public IResult Update(MenuDto menuDto)
         {
-            Menu menu = new Menu { Name = menuDto.Name, Description = menuDto.Description, ImageUrl = menuDto.ImageUrl };
+            Menu menu = new Menu { Id=menuDto.Id, Name = menuDto.Name, Description = menuDto.Description, ImageUrl = menuDto.ImageUrl };
             _menuDal.Update(menu);
             return new SuccessResult(Messages.MenuUpdated);
         }
