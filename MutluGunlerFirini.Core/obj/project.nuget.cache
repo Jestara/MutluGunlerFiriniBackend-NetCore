@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7WImRnyZQfM55E4PBnwRKy8XQbN4gqA4jQ53rJkrDBS0Z8rUCyHk4OKJ/pTYWzYMREi4WHmghBkooVSyD9A81w==",
+  "dgSpecHash": "Gos/CobPXFM+tbYhJx5jF8Da/F+CDMTx0Mjg9hbXZPGVUrnUh5SNjBtdiYdFwNjtNzItM/CdZO9U4Qzytwpe8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+  "projectFilePath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Celil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Celil\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

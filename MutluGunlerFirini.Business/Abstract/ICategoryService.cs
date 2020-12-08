@@ -14,6 +14,6 @@ namespace MutluGunlerFirini.Business.Abstract
         IDataResult<List<Category>> GetListByMenu(int menuId);
         IResult Add(CategoryDto categoryDto);
         IResult Delete(Category category);
-        IResult Update(Category category);
+        IResult Update(CategoryDto categoryDto);
     }
 }

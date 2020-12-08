@@ -42,8 +42,9 @@ namespace MutluGunlerFirini.Business.Concrete
             return new SuccessDataResult<List<Menu>>(_menuDal.GetList());
         }
 
-        public IResult Update(Menu menu)
+        public IResult Update(MenuDto menuDto)
         {
+            Menu menu = new Menu { Name = menuDto.Name, Description = menuDto.Description, ImageUrl = menuDto.ImageUrl };
             _menuDal.Update(menu);
             return new SuccessResult(Messages.MenuUpdated);
         }

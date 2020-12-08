@@ -6376,11 +6376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
       "projectName": "MutluGunlerFirini.Business",
-      "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
+      "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
       "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\obj\\",
+      "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6399,14 +6399,14 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
-              "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
+            "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
+              "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
             },
-            "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj"
+            "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj"
             },
-            "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
-              "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj"
+            "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
+              "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj"
             }
           }
         }

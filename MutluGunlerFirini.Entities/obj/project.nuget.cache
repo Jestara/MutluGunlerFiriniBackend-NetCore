@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bLtgqr3NJ+E+zsfWcsywBsyyi73aVE1CJF0o1xejju1Jhg2RC1DWGkwNllgK+r8xb4I5tN5+eOxtW/pKrIk20A==",
+  "dgSpecHash": "//6icRS8J9Y20ddQfgl+9zkwcscrn6Nyj0+r/j0tSE60DpMRF+gZA2jYAqoY/nxX9LQC/dyTWUCNC86skGfR+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Celil\\Desktop\\Yeni klasör (2)\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Celil\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.0\\microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",
     "C:\\Users\\Celil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

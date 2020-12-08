@@ -48,8 +48,9 @@ namespace MutluGunlerFirini.Business.Concrete
         }
 
 
-        public IResult Update(Product product)
+        public IResult Update(ProductDto productDto)
         {
+            Product product = new Product { Name = productDto.Name, ImageUrl = productDto.ImageUrl, Description = productDto.Description, CategoryId = productDto.CategoryId, Price = productDto.Price };
             _productDal.Update(product);
             return new SuccessResult(Messages.ProductUpdated);
         }

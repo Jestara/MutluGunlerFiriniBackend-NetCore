@@ -95,12 +95,32 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(Category category)
+        public async Task<IActionResult> Update([FromForm] CategoryDto categoryDto)
         {
-            var result = _categoryService.Update(category);
+            string imageUrl = "";
+            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
+            if (!Directory.Exists(uploads))
+            {
+                Directory.CreateDirectory(uploads);
+            }
+            if (categoryDto.File.Length > 0)
+            {
+                Guid guid = Guid.NewGuid();
+                string filename = categoryDto.File.FileName;
+                string[] separate = filename.Split('.');
+                string name = guid + "." + separate[1];
+                var filePath = Path.Combine(uploads, name);
+                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Category/" + name;
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await categoryDto.File.CopyToAsync(fileStream);
+                }
+            }
+            categoryDto.ImageUrl = imageUrl;
+            var result = _categoryService.Update(categoryDto);
             if (result.Success)
             {
-                return Ok(result.Message);
+                return Ok();
             }
 
             return BadRequest(result.Message);

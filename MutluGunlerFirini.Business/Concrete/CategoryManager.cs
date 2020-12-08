@@ -47,8 +47,9 @@ namespace MutluGunlerFirini.Business.Concrete
             return new SuccessDataResult<List<Category>>(_categoryDal.GetList(c => c.MenuId== menuId));
         }
 
-        public IResult Update(Category category)
+        public IResult Update(CategoryDto categoryDto)
         {
+            Category category = new Category { Description = categoryDto.Description, ImageUrl = categoryDto.ImageUrl, Name = categoryDto.Name, MenuId = categoryDto.MenuId };
             _categoryDal.Update(category);
             return new SuccessResult(Messages.CategoryUpdated);
         }

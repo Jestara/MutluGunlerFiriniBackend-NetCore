@@ -85,9 +85,29 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(Menu menu)
+        public async Task<IActionResult> Update([FromForm] MenuDto menuDto)
         {
-            var result = _menuService.Update(menu);
+            string imageUrl = "";
+            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
+            if (!Directory.Exists(uploads))
+            {
+                Directory.CreateDirectory(uploads);
+            }
+            if (menuDto.File.Length > 0)
+            {
+                Guid guid = Guid.NewGuid();
+                string filename = menuDto.File.FileName;
+                string[] separate = filename.Split('.');
+                string name = guid + "." + separate[1];
+                var filePath = Path.Combine(uploads, name);
+                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Menu/" + name;
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await menuDto.File.CopyToAsync(fileStream);
+                }
+            }
+            menuDto.ImageUrl = imageUrl;
+            var result = _menuService.Update(menuDto);
             if (result.Success)
             {
                 return Ok();

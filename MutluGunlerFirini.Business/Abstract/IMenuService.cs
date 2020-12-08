@@ -13,6 +13,6 @@ namespace MutluGunlerFirini.Business.Abstract
         IDataResult<List<Menu>> GetList();
         IResult Add(MenuDto menuDto);
         IResult Delete(Menu menu);
-        IResult Update(Menu menu);
+        IResult Update(MenuDto menuDto);
     }
 }
