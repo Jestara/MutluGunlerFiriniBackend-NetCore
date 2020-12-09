@@ -98,25 +98,29 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         public async Task<IActionResult> Update([FromForm] CategoryDto categoryDto)
         {
             string imageUrl = "";
-            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
-            if (!Directory.Exists(uploads))
+            if (categoryDto.File != null)
             {
-                Directory.CreateDirectory(uploads);
-            }
-            if (categoryDto.File.Length > 0)
-            {
-                Guid guid = Guid.NewGuid();
-                string filename = categoryDto.File.FileName;
-                string[] separate = filename.Split('.');
-                string name = guid + "." + separate[1];
-                var filePath = Path.Combine(uploads, name);
-                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Category/" + name;
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
+                if (!Directory.Exists(uploads))
                 {
-                    await categoryDto.File.CopyToAsync(fileStream);
+                    Directory.CreateDirectory(uploads);
                 }
+                if (categoryDto.File.Length > 0)
+                {
+                    Guid guid = Guid.NewGuid();
+                    string filename = categoryDto.File.FileName;
+                    string[] separate = filename.Split('.');
+                    string name = guid + "." + separate[1];
+                    var filePath = Path.Combine(uploads, name);
+                    imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Category/" + name;
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await categoryDto.File.CopyToAsync(fileStream);
+                    }
+                }
+                categoryDto.ImageUrl = imageUrl;
             }
-            categoryDto.ImageUrl = imageUrl;
+            
             var result = _categoryService.Update(categoryDto);
             if (result.Success)
             {

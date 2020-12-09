@@ -56,25 +56,29 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         public async Task<IActionResult> Add([FromForm] MenuDto menuDto)
         {
             string imageUrl = "";
-            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
-            if (!Directory.Exists(uploads))
+            if (menuDto.File != null)
             {
-                Directory.CreateDirectory(uploads);
-            }
-            if (menuDto.File.Length > 0)
-            {
-                Guid guid = Guid.NewGuid();
-                string filename = menuDto.File.FileName;
-                string[] separate = filename.Split('.');
-                string name = guid + "." + separate[1];
-                var filePath = Path.Combine(uploads, name);
-                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Menu/" + name;
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
+                if (!Directory.Exists(uploads))
                 {
-                    await menuDto.File.CopyToAsync(fileStream);
+                    Directory.CreateDirectory(uploads);
                 }
+                if (menuDto.File.Length > 0)
+                {
+                    Guid guid = Guid.NewGuid();
+                    string filename = menuDto.File.FileName;
+                    string[] separate = filename.Split('.');
+                    string name = guid + "." + separate[1];
+                    var filePath = Path.Combine(uploads, name);
+                    imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Menu/" + name;
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await menuDto.File.CopyToAsync(fileStream);
+                    }
+                }
+                menuDto.ImageUrl = imageUrl;
             }
-            menuDto.ImageUrl = imageUrl;
+            
             var result = _menuService.Add(menuDto);
             if (result.Success)
             {

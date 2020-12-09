@@ -98,10 +98,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/24/2019 19:56:06</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Business.dll">
-      <publishTime>12/08/2020 13:45:38</publishTime>
+      <publishTime>12/08/2020 23:30:27</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Business.pdb">
-      <publishTime>12/08/2020 13:45:38</publishTime>
+      <publishTime>12/08/2020 23:30:27</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Core.dll">
       <publishTime>12/08/2020 13:39:01</publishTime>
@@ -122,16 +122,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/08/2020 13:45:36</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.deps.json">
-      <publishTime>12/08/2020 13:45:39</publishTime>
+      <publishTime>12/09/2020 12:39:16</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.dll">
-      <publishTime>12/08/2020 13:45:39</publishTime>
+      <publishTime>12/09/2020 12:38:36</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.exe">
-      <publishTime>12/08/2020 13:45:39</publishTime>
+      <publishTime>12/09/2020 12:38:36</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.pdb">
-      <publishTime>12/08/2020 13:45:39</publishTime>
+      <publishTime>12/09/2020 12:38:36</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.runtimeconfig.json">
       <publishTime>12/08/2020 13:45:39</publishTime>
@@ -185,7 +185,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>12/08/2020 13:47:02</publishTime>
+      <publishTime>12/09/2020 12:39:16</publishTime>
     </File>
     <File Include="wwwroot/Images/Menu/1987d810-5ff6-4f8f-a96e-abd0fd40234d.jpg">
       <publishTime>12/08/2020 13:39:01</publishTime>
