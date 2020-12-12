@@ -27,8 +27,19 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             _hostingEnvironment = environment;
         }
 
-        [HttpGet("getall")]
+        [HttpGet("getallwithproducts")]
         public IActionResult GetList()
+        {
+            var result = _categoryService.GetAll();
+            if (result.Success)
+            {
+                return Ok(result.Data);
+            }
+            return BadRequest(result.Message);
+        }
+
+        [HttpGet("getall")]
+        public IActionResult GetAll()
         {
             var result = _categoryService.GetList();
             if (result.Success)

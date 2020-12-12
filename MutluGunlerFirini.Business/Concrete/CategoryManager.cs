@@ -1,4 +1,5 @@
-﻿using MutluGunlerFirini.Business.Abstract;
+﻿using AutoMapper;
+using MutluGunlerFirini.Business.Abstract;
 using MutluGunlerFirini.Business.Constants;
 using MutluGunlerFirini.Core.Utilities.Results;
 using MutluGunlerFirini.DataAccess.Abstract;
@@ -13,10 +14,14 @@ namespace MutluGunlerFirini.Business.Concrete
     public class CategoryManager : ICategoryService
     {
         private ICategoryDal _categoryDal;
+        private IMapper _mapper;
+        private IProductDal _productDal;
 
-        public CategoryManager(ICategoryDal categoryDal)
+        public CategoryManager(ICategoryDal categoryDal, IMapper mapper, IProductDal productDal)
         {
             _categoryDal = categoryDal;
+            _mapper = mapper;
+            _productDal = productDal;
         }
 
         public IResult Add(CategoryDto categoryDto)
@@ -30,6 +35,21 @@ namespace MutluGunlerFirini.Business.Concrete
         {
             _categoryDal.Delete(category);
             return new SuccessResult(Messages.CategoryDeleted);
+        }
+
+        public IDataResult<List<CategoryWithProductsDto>> GetAll()
+        {
+            List<CategoryWithProductsDto> categoryWithProductsDtos = _mapper.Map<List<CategoryWithProductsDto>>(_categoryDal.GetList());
+            foreach (var categoryWithProductsDto in categoryWithProductsDtos)
+            {
+                categoryWithProductsDto.Products = GetProducts(categoryWithProductsDto.Id);
+            }
+            return new SuccessDataResult<List<CategoryWithProductsDto>>(categoryWithProductsDtos);
+        }
+
+        private List<Product> GetProducts(int categoryId)
+        {
+            return _productDal.GetList(p => p.CategoryId == categoryId);
         }
 
         public IDataResult<Category> GetById(int categoryId)

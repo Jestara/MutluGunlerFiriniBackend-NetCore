@@ -10,6 +10,8 @@ C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunler
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\MutluGunlerFirini.WebAPI.pdb
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Autofac.dll
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\AutoMapper.dll
+C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.HashCode.dll
