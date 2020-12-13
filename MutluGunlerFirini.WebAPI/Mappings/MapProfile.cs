@@ -14,7 +14,8 @@ namespace MutluGunlerFirini.WebAPI.Mappings
         {
             CreateMap<Category, CategoryWithProductsDto>();
             CreateMap<CategoryWithProductsDto, Category>();
-
+            CreateMap<Menu, MenuAllDto>();
+            CreateMap<MenuAllDto, Menu>();
         }
     }
 }

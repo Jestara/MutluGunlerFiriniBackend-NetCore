@@ -104,10 +104,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/24/2019 19:56:06</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Business.dll">
-      <publishTime>12/12/2020 23:31:14</publishTime>
+      <publishTime>12/13/2020 22:42:40</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Business.pdb">
-      <publishTime>12/12/2020 23:31:14</publishTime>
+      <publishTime>12/13/2020 22:42:40</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Core.dll">
       <publishTime>12/08/2020 13:39:01</publishTime>
@@ -116,28 +116,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/08/2020 13:39:01</publishTime>
     </File>
     <File Include="MutluGunlerFirini.DataAccess.dll">
-      <publishTime>12/12/2020 23:13:36</publishTime>
+      <publishTime>12/13/2020 22:42:39</publishTime>
     </File>
     <File Include="MutluGunlerFirini.DataAccess.pdb">
-      <publishTime>12/12/2020 23:13:36</publishTime>
+      <publishTime>12/13/2020 22:42:39</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Entities.dll">
-      <publishTime>12/12/2020 23:13:36</publishTime>
+      <publishTime>12/13/2020 22:42:39</publishTime>
     </File>
     <File Include="MutluGunlerFirini.Entities.pdb">
-      <publishTime>12/12/2020 23:13:36</publishTime>
+      <publishTime>12/13/2020 22:42:39</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.deps.json">
-      <publishTime>12/12/2020 23:32:57</publishTime>
+      <publishTime>12/13/2020 22:47:25</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.dll">
-      <publishTime>12/12/2020 23:32:56</publishTime>
+      <publishTime>12/13/2020 22:42:41</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.exe">
-      <publishTime>12/12/2020 23:32:56</publishTime>
+      <publishTime>12/13/2020 22:42:41</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.pdb">
-      <publishTime>12/12/2020 23:32:56</publishTime>
+      <publishTime>12/13/2020 22:42:41</publishTime>
     </File>
     <File Include="MutluGunlerFirini.WebAPI.runtimeconfig.json">
       <publishTime>12/12/2020 23:22:52</publishTime>
@@ -191,7 +191,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>12/12/2020 23:32:59</publishTime>
+      <publishTime>12/13/2020 22:47:25</publishTime>
     </File>
     <File Include="wwwroot/Images/Menu/1987d810-5ff6-4f8f-a96e-abd0fd40234d.jpg">
       <publishTime>12/08/2020 13:39:01</publishTime>

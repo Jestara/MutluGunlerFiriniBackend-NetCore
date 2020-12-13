@@ -37,9 +37,9 @@ namespace MutluGunlerFirini.Business.Concrete
             return new SuccessResult(Messages.CategoryDeleted);
         }
 
-        public IDataResult<List<CategoryWithProductsDto>> GetAll()
+        public IDataResult<List<CategoryWithProductsDto>> GetAll(int menuId)
         {
-            List<CategoryWithProductsDto> categoryWithProductsDtos = _mapper.Map<List<CategoryWithProductsDto>>(_categoryDal.GetList());
+            List<CategoryWithProductsDto> categoryWithProductsDtos = _mapper.Map<List<CategoryWithProductsDto>>(_categoryDal.GetList(c => c.MenuId==menuId));
             foreach (var categoryWithProductsDto in categoryWithProductsDtos)
             {
                 categoryWithProductsDto.Products = GetProducts(categoryWithProductsDto.Id);

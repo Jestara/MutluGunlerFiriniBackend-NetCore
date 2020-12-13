@@ -65,25 +65,28 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         public async Task<IActionResult> Add([FromForm] ProductDto productDto)
         {
             string imageUrl = "";
-            var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Product");
-            if (!Directory.Exists(uploads))
+            if (productDto.File != null)
             {
-                Directory.CreateDirectory(uploads);
-            }
-            if (productDto.File.Length > 0)
-            {
-                Guid guid = Guid.NewGuid();
-                string filename = productDto.File.FileName;
-                string[] separate = filename.Split('.');
-                string name = guid + "." + separate[1];
-                var filePath = Path.Combine(uploads, name);
-                imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Product/" + name;
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Product");
+                if (!Directory.Exists(uploads))
                 {
-                    await productDto.File.CopyToAsync(fileStream);
+                    Directory.CreateDirectory(uploads);
                 }
+                if (productDto.File.Length > 0)
+                {
+                    Guid guid = Guid.NewGuid();
+                    string filename = productDto.File.FileName;
+                    string[] separate = filename.Split('.');
+                    string name = guid + "." + separate[1];
+                    var filePath = Path.Combine(uploads, name);
+                    imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Product/" + name;
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await productDto.File.CopyToAsync(fileStream);
+                    }
+                }
+                productDto.ImageUrl = imageUrl;
             }
-            productDto.ImageUrl = imageUrl;
             var result = _productService.Add(productDto);
             if (result.Success)
             {
