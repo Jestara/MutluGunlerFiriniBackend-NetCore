@@ -40,3 +40,17 @@ C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunler
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.csproj.CopyComplete
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.dll
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\bin\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.deps.json
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\bin\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.dll
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\bin\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\bin\Debug\netstandard2.0\MutluGunlerFirini.Core.dll
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\bin\Debug\netstandard2.0\MutluGunlerFirini.Entities.dll
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\bin\Debug\netstandard2.0\MutluGunlerFirini.Core.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\bin\Debug\netstandard2.0\MutluGunlerFirini.Entities.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.csprojAssemblyReference.cache
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.AssemblyInfoInputs.cache
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.AssemblyInfo.cs
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.csproj.CopyComplete
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.dll
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.DataAccess\obj\Debug\netstandard2.0\MutluGunlerFirini.DataAccess.pdb

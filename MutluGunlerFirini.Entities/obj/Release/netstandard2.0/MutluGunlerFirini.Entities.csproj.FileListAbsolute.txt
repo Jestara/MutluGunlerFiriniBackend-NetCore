@@ -58,3 +58,15 @@ C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunler
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.csproj.CopyComplete
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.dll
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\bin\Release\netstandard2.0\MutluGunlerFirini.Entities.deps.json
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\bin\Release\netstandard2.0\MutluGunlerFirini.Entities.dll
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\bin\Release\netstandard2.0\MutluGunlerFirini.Entities.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\bin\Release\netstandard2.0\MutluGunlerFirini.Core.dll
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\bin\Release\netstandard2.0\MutluGunlerFirini.Core.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.csprojAssemblyReference.cache
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.AssemblyInfoInputs.cache
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.AssemblyInfo.cs
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.csproj.CoreCompileInputs.cache
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.csproj.CopyComplete
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.dll
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Entities\obj\Release\netstandard2.0\MutluGunlerFirini.Entities.pdb

@@ -17,6 +17,7 @@ namespace MutluGunlerFirini.DataAccess.Concrete.EntityFramework.Contexts
         public DbSet<Product> Products { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Menu> Menus { get; set; }
+        public DbSet<Gallery> Galleries{ get; set; }
     }
 }
 
