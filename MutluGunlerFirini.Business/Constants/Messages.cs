@@ -21,5 +21,9 @@ namespace MutluGunlerFirini.Business.Constants
         public static string MenuAdded = "Menü başarıyla eklendi";
         public static string MenuDeleted = "Menü başarıyla silindi";
         public static string MenuUpdated = "Menü başarıyla güncellendi";
+
+        public static string GalleryAdded = "Galeri başarıyla eklendi";
+        public static string GalleryDeleted = "Galeri başarıyla silindi";
+        public static string GalleryUpdated = "Galeri başarıyla güncellendi";
     }
 }

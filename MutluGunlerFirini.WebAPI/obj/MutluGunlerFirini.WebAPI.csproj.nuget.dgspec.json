@@ -1,43 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj": {}
+    "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj": {
+    "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
+        "projectUniqueName": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
         "projectName": "MutluGunlerFirini.Business",
-        "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
-        "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\obj\\",
+        "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj",
+        "packagesPath": "C:\\Users\\ersen\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\ersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://213.155.108.99/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
+              "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
+                "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
               },
-              "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj"
+              "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj"
               },
-              "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj"
+              "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
+                "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj"
               }
             }
           }
@@ -50,7 +48,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -77,35 +74,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
+    "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+        "projectUniqueName": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
         "projectName": "MutluGunlerFirini.Core",
-        "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
-        "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\obj\\",
+        "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj",
+        "packagesPath": "C:\\Users\\ersen\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\ersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://213.155.108.99/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -117,7 +112,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -140,41 +134,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj": {
+    "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj",
+        "projectUniqueName": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj",
         "projectName": "MutluGunlerFirini.DataAccess",
-        "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\obj\\",
+        "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\MutluGunlerFirini.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ersen\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\ersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://213.155.108.99/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
+              "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
+                "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
               },
-              "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj"
+              "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
+                "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj"
               }
             }
           }
@@ -187,7 +179,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -210,38 +201,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
+    "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
+        "projectUniqueName": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
         "projectName": "MutluGunlerFirini.Entities",
-        "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
-        "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\obj\\",
+        "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\MutluGunlerFirini.Entities.csproj",
+        "packagesPath": "C:\\Users\\ersen\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\ersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://213.155.108.99/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
+              "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj": {
+                "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Core\\MutluGunlerFirini.Core.csproj"
               }
             }
           }
@@ -254,7 +243,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
@@ -277,38 +265,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj": {
+    "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
+        "projectUniqueName": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
         "projectName": "MutluGunlerFirini.WebAPI",
-        "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Celil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\obj\\",
+        "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\MutluGunlerFirini.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\ersen\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Celil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\ersen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://213.155.108.99/nuget/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj": {
-                "projectPath": "C:\\Users\\Celil\\Desktop\\Yeni klasör\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj"
+              "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj": {
+                "projectPath": "D:\\Projects\\Mutlu Günler Fırını\\MutluGunlerFiriniBackend-NetCore\\MutluGunlerFirini.Business\\MutluGunlerFirini.Business.csproj"
               }
             }
           }
@@ -321,7 +307,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -350,7 +335,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -26,6 +26,9 @@ namespace MutluGunlerFirini.Business.DependencyResolvers.Autofac
             builder.RegisterType<MenuManager>().As<IMenuService>();
             builder.RegisterType<EfMenuDal>().As<IMenuDal>();
 
+            builder.RegisterType<GalleryManager>().As<IGalleryService>();
+            builder.RegisterType<EfGalleryDal>().As<IGalleryDal>();
+
         }
     }
 }
