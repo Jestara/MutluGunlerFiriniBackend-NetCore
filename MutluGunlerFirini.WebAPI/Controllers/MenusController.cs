@@ -94,6 +94,15 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             string imageUrl = "";
             if (menuDto.File != null)
             {
+                try
+                {
+                    System.IO.File.Delete(menuDto.ImageUrl);
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
                 var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
            
                 if (!Directory.Exists(uploads))
@@ -127,6 +136,15 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         [HttpPost("delete")]
         public IActionResult Delete(Menu menu)
         {
+            try
+            {
+                System.IO.File.Delete(menu.ImageUrl);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
             var result = _menuService.Delete(menu);
             if (result.Success)
             {

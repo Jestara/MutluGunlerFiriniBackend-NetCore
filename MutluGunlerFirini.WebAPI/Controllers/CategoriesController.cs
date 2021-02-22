@@ -114,6 +114,16 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             string imageUrl = "";
             if (categoryDto.File != null)
             {
+                try
+                {
+                    System.IO.File.Delete(categoryDto.ImageUrl);
+                }
+                catch (Exception)
+                {
+
+                    throw;
+                }
+                
                 var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
                 if (!Directory.Exists(uploads))
                 {
@@ -147,6 +157,16 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         [HttpPost("delete")]
         public IActionResult Delete(Category category)
         {
+            try
+            {
+                System.IO.File.Delete(category.ImageUrl);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
             var result = _categoryService.Delete(category);
             if (result.Success)
             {

@@ -43,3 +43,12 @@ D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunler
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.csproj.CoreCompileInputs.cache
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.pdb
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\bin\Release\netstandard2.0\MutluGunlerFirini.Core.deps.json
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\bin\Release\netstandard2.0\MutluGunlerFirini.Core.dll
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\bin\Release\netstandard2.0\MutluGunlerFirini.Core.pdb
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.csprojAssemblyReference.cache
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.AssemblyInfoInputs.cache
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.AssemblyInfo.cs
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.csproj.CoreCompileInputs.cache
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.dll
+C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Release\netstandard2.0\MutluGunlerFirini.Core.pdb
