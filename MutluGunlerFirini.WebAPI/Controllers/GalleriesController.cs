@@ -97,7 +97,16 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             {
                 try
                 {
-                    System.IO.File.Delete(galleryDto.ImageUrl);
+                    var deletes = Path.Combine(_hostingEnvironment.WebRootPath, "Images");
+                    string[] paths = galleryDto.ImageUrl.Split('/');
+                    string name = paths[paths.Length - 1];
+                    if (Directory.Exists(deletes))
+                    {
+
+                        var filePath = Path.Combine(deletes, name);
+                        System.IO.File.Delete(filePath);
+                    }
+
                 }
                 catch (Exception)
                 {
@@ -134,11 +143,21 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("delete")]
+        [Obsolete]
         public IActionResult Delete(Gallery gallery)
         {
             try
             {
-                System.IO.File.Delete(gallery.ImageUrl);
+                var deletes = Path.Combine(_hostingEnvironment.WebRootPath, "Images");
+                string[] paths = gallery.ImageUrl.Split('/');
+                string name = paths[paths.Length - 1];
+                if (Directory.Exists(deletes))
+                {
+
+                    var filePath = Path.Combine(deletes, name);
+                    System.IO.File.Delete(filePath);
+                }
+
             }
             catch (Exception)
             {

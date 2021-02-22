@@ -116,14 +116,23 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             {
                 try
                 {
-                    System.IO.File.Delete(categoryDto.ImageUrl);
+                    var deletes = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
+                    string[] paths = categoryDto.ImageUrl.Split('/');
+                    string name = paths[paths.Length - 1];
+                    if (Directory.Exists(deletes))
+                    {
+
+                        var filePath = Path.Combine(deletes, name);
+                        System.IO.File.Delete(filePath);
+                    }
+
                 }
                 catch (Exception)
                 {
 
                     throw;
                 }
-                
+
                 var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
                 if (!Directory.Exists(uploads))
                 {
@@ -159,14 +168,23 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         {
             try
             {
-                System.IO.File.Delete(category.ImageUrl);
+                var deletes = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Category");
+                string[] paths = category.ImageUrl.Split('/');
+                string name = paths[paths.Length - 1];
+                if (Directory.Exists(deletes))
+                {
+
+                    var filePath = Path.Combine(deletes, name);
+                    System.IO.File.Delete(filePath);
+                }
+
             }
             catch (Exception)
             {
 
                 throw;
             }
-            
+
             var result = _categoryService.Delete(category);
             if (result.Success)
             {

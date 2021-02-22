@@ -96,7 +96,16 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             {
                 try
                 {
-                    System.IO.File.Delete(menuDto.ImageUrl);
+                    var deletes = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
+                    string[] paths = menuDto.ImageUrl.Split('/');
+                    string name = paths[paths.Length - 1];
+                    if (Directory.Exists(deletes))
+                    {
+
+                        var filePath = Path.Combine(deletes, name);
+                        System.IO.File.Delete(filePath);
+                    }
+
                 }
                 catch (Exception)
                 {
@@ -139,12 +148,12 @@ namespace MutluGunlerFirini.WebAPI.Controllers
             try
             {
                 var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
-
-                //25510693-8ed9-4185-9ff4-15757f10379e.jpeg
+                string[] paths = menu.ImageUrl.Split('/');
+                string name = paths[paths.Length-1];
                 if (Directory.Exists(uploads))
                 {
 
-                    var filePath = Path.Combine(uploads, "25510693-8ed9-4185-9ff4-15757f10379e.jpeg");
+                    var filePath = Path.Combine(uploads, name);
                     System.IO.File.Delete(filePath);
                 }
                
