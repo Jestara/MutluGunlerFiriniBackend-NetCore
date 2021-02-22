@@ -365,7 +365,6 @@ C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunler
 C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\appsettings.Development.json
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\appsettings.json
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Properties\launchSettings.json
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\web.config
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\MutluGunlerFirini.WebAPI.exe
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\MutluGunlerFirini.WebAPI.deps.json
@@ -513,3 +512,4 @@ C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGu
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\MutluGunlerFirini.WebAPI.dll
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\MutluGunlerFirini.WebAPI.pdb
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\MutluGunlerFirini.WebAPI.genruntimeconfig.cache
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\scopedcss\bundle\MutluGunlerFirini.WebAPI.styles.css

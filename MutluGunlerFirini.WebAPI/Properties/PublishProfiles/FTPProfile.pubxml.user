@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxWbvAMnGJE2NAIsiMQP+CAAAAAACAAAAAAAQZgAAAAEAACAAAADBrfsyNNfZLQzvV7pZUG8kjvQkzpDxJF8KlNp+ca2cHQAAAAAOgAAAAAIAACAAAAAMD6YYIZjwtBXVWIO6WXV5T7hiMtXC8zqP/23MYJV/RSAAAAB8DeVI9msWGvspwWA5U8/bb8MdJx2Yc5q1XpVwoVvGMEAAAAARODvOfW7wa53ovfmcH5cmHKJ5EEiW+G3GmjM/IYL3gwXbPzN9KDHASWIqa81U1ZGfbiVTkq0/Rp/q77Zi00/v</EncryptedPassword>
-    <_PublishTargetUrl>ftp://77.245.159.18/service.mutlugunlerfirini.com.tr</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\ersen\Desktop\MutluGunlerPublish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">

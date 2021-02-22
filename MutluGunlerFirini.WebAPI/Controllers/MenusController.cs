@@ -138,7 +138,16 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         {
             try
             {
-                System.IO.File.Delete(menu.ImageUrl);
+                var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Menu");
+
+                //25510693-8ed9-4185-9ff4-15757f10379e.jpeg
+                if (Directory.Exists(uploads))
+                {
+
+                    var filePath = Path.Combine(uploads, "25510693-8ed9-4185-9ff4-15757f10379e.jpeg");
+                    System.IO.File.Delete(filePath);
+                }
+               
             }
             catch (Exception)
             {
