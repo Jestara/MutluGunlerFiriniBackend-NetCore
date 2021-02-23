@@ -12,6 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MutluGunlerFirini.Core.DependecyResolvers;
+using MutluGunlerFirini.Core.Extensions;
+using MutluGunlerFirini.Core.Utilities.IoC;
 using MutluGunlerFirini.WebAPI.Helpers;
 
 namespace MutluGunlerFirini.WebAPI
@@ -33,9 +36,13 @@ namespace MutluGunlerFirini.WebAPI
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("http://localhost:4201", "http://localhost:4200", "https://mutlugunlerfirini.com.tr", "https://admin.mutlugunlerfirini.com.tr", "http://eserhizliokuma.com", "http://admin.eserhizliokuma.com").AllowAnyHeader()
+                    builder.WithOrigins("http://localhost:4201", "http://localhost:4200", "https://mutlugunlerfirini.com.tr", "https://admin.mutlugunlerfirini.com.tr").AllowAnyHeader()
                     .AllowAnyMethod().AllowCredentials();
                 });
+            });
+            services.AddDependencyResolvers(new ICoreModule[]
+            {
+                new CoreModule(),
             });
             services.AddAutoMapper(typeof(Startup));
             services.AddAuthentication("BasicAuthentication")

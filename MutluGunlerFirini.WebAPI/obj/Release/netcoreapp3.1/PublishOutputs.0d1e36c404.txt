@@ -12,6 +12,7 @@ C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGu
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Autofac.Extensions.DependencyInjection.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\AutoMapper.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Castle.Core.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.HashCode.dll
@@ -32,16 +33,8 @@ C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGu
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Primitives.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Identity.Client.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.Collections.Immutable.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.IO.Pipelines.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.Runtime.Caching.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll

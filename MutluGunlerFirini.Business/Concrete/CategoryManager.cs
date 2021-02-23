@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MutluGunlerFirini.Business.Abstract;
 using MutluGunlerFirini.Business.Constants;
+using MutluGunlerFirini.Core.Aspects.Autofac.Caching;
 using MutluGunlerFirini.Core.Utilities.Results;
 using MutluGunlerFirini.DataAccess.Abstract;
 using MutluGunlerFirini.Entities.Concrete;
@@ -24,6 +25,7 @@ namespace MutluGunlerFirini.Business.Concrete
             _productDal = productDal;
         }
 
+        [CacheRemoveAspect("ICategoryService.Get")]
         public IResult Add(CategoryDto categoryDto)
         {
             Category category = new Category { Description = categoryDto.Description, ImageUrl = categoryDto.ImageUrl, Name = categoryDto.Name, MenuId = categoryDto.MenuId };
@@ -31,12 +33,14 @@ namespace MutluGunlerFirini.Business.Concrete
             return new SuccessResult(Messages.CategoryAdded);
         }
 
+        [CacheRemoveAspect("ICategoryService.Get")]
         public IResult Delete(Category category)
         {
             _categoryDal.Delete(category);
             return new SuccessResult(Messages.CategoryDeleted);
         }
 
+        [CacheAspect(1)]
         public IDataResult<List<CategoryWithProductsDto>> GetAll(int menuId)
         {
             List<CategoryWithProductsDto> categoryWithProductsDtos = _mapper.Map<List<CategoryWithProductsDto>>(_categoryDal.GetList(c => c.MenuId==menuId));
@@ -47,26 +51,31 @@ namespace MutluGunlerFirini.Business.Concrete
             return new SuccessDataResult<List<CategoryWithProductsDto>>(categoryWithProductsDtos);
         }
 
+        [CacheAspect(1)]
         private List<Product> GetProducts(int categoryId)
         {
             return _productDal.GetList(p => p.CategoryId == categoryId);
         }
 
+        [CacheAspect(1)]
         public IDataResult<Category> GetById(int categoryId)
         {
             return new SuccessDataResult<Category>(_categoryDal.Get(c => c.Id == categoryId));
         }
 
+        [CacheAspect(1)]
         public IDataResult<List<Category>> GetList()
         {
             return new SuccessDataResult<List<Category>>(_categoryDal.GetList());
         }
 
+        [CacheAspect(1)]
         public IDataResult<List<Category>> GetListByMenu(int menuId)
         {
             return new SuccessDataResult<List<Category>>(_categoryDal.GetList(c => c.MenuId== menuId));
         }
 
+        [CacheRemoveAspect("ICategoryService.Get")]
         public IResult Update(CategoryDto categoryDto)
         {
             Category category = new Category { Id=categoryDto.Id,Description = categoryDto.Description, ImageUrl = categoryDto.ImageUrl, Name = categoryDto.Name, MenuId = categoryDto.MenuId };

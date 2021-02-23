@@ -253,16 +253,8 @@ C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGu
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\System.IO.Pipelines.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -515,3 +507,4 @@ C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGu
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Release\netcoreapp3.1\scopedcss\bundle\MutluGunlerFirini.WebAPI.styles.css
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\AutoMapper.dll
 C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Celil\Desktop\Yeni klasör (2)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Release\netcoreapp3.1\Castle.Core.dll
