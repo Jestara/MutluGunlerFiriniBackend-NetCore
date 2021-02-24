@@ -23,7 +23,7 @@ namespace MutluGunlerFirini.Business.Concrete
         [CacheRemoveAspect("IGalleryService.Get")]
         public IResult Add(GalleryDto galleryDto)
         {
-            Gallery gallery = new Gallery { ImageUrl = galleryDto.ImageUrl };
+            Gallery gallery = new Gallery { ImageUrl = galleryDto.ImageUrl};
             _galleryDal.Add(gallery);
             return new SuccessResult(Messages.GalleryAdded);
         }
