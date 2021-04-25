@@ -19,6 +19,7 @@ namespace MutluGunlerFirini.DataAccess.Concrete.EntityFramework.Contexts
         public DbSet<Menu> Menus { get; set; }
         public DbSet<Gallery> Galleries{ get; set; }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<MutluTV> MutluTV { get; set; }
     }
 }
 

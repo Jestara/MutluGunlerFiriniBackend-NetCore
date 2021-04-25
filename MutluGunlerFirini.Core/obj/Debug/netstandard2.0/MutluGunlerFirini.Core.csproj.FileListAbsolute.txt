@@ -28,7 +28,6 @@ C:\Users\Celil\Desktop\Yeni klasör\MutluGunlerFiriniBackend-NetCore\MutluGunler
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\bin\Debug\netstandard2.0\MutluGunlerFirini.Core.deps.json
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\bin\Debug\netstandard2.0\MutluGunlerFirini.Core.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\bin\Debug\netstandard2.0\MutluGunlerFirini.Core.pdb
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.csprojAssemblyReference.cache
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.AssemblyInfoInputs.cache
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.AssemblyInfo.cs
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.csproj.CoreCompileInputs.cache
@@ -43,3 +42,4 @@ C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGu
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.csproj.CoreCompileInputs.cache
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.dll
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.pdb
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.Core\obj\Debug\netstandard2.0\MutluGunlerFirini.Core.csprojAssemblyReference.cache

@@ -22,16 +22,16 @@ namespace MutluGunlerFirini.Business.Concrete
         [CacheRemoveAspect("IPostService.Get")]
         public IResult Add(PostDto postDto)
         {
-            Post post = new Post { ImageUrl = postDto.ImageUrl, Description=postDto.Description,VideoUrl=postDto.VideoUrl,CreatedDate=DateTime.Now };
+            Post post = new Post { ImageUrl = postDto.ImageUrl, Description=postDto.Description,VideoUrl=postDto.VideoUrl , Title = postDto.Title};
             _postDal.Add(post);
-            return new SuccessResult(Messages.GalleryAdded);
+            return new SuccessResult(Messages.PostAdded);
         }
 
         [CacheRemoveAspect("IPostService.Get")]
         public IResult Delete(Post post)
         {
             _postDal.Delete(post);
-            return new SuccessResult(Messages.GalleryDeleted);
+            return new SuccessResult(Messages.PostDeleted);
         }
 
         [CacheAspect(1)]
@@ -49,9 +49,9 @@ namespace MutluGunlerFirini.Business.Concrete
         [CacheRemoveAspect("IPostService.Get")]
         public IResult Update(PostDto postDto)
         {
-            Post post = new Post { Id=postDto.Id, ImageUrl = postDto.ImageUrl, Description = postDto.Description, VideoUrl = postDto.VideoUrl, CreatedDate = DateTime.Now };
+            Post post = new Post { Id=postDto.Id, ImageUrl = postDto.ImageUrl, Description = postDto.Description, VideoUrl = postDto.VideoUrl , Title = postDto.Title };
             _postDal.Update(post);
-            return new SuccessResult(Messages.GalleryUpdated);
+            return new SuccessResult(Messages.PostUpdated);
         }
     }
 }

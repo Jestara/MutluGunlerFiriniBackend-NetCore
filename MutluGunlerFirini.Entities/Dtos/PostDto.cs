@@ -8,11 +8,11 @@ namespace MutluGunlerFirini.Entities.Dtos
 {
     public class PostDto : IDto
     {
-        public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public int Id { get; set; } 
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public string VideoUrl { get; set; }
+        public string Title{ get; set; }
         public IFormFile File { get; set; }
     }
 }

@@ -18,11 +18,10 @@ namespace MutluGunlerFirini.WebAPI.Controllers
     [Authorize]
     public class PostsController : ControllerBase
     {
-        private readonly IPostService _postService;
-        [Obsolete]
+        private IPostService _postService;
         private IHostingEnvironment _hostingEnvironment;
 
-        [Obsolete]
+        
         public PostsController(IPostService postService, IHostingEnvironment environment)
         {
             _postService = postService;
@@ -41,9 +40,9 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpGet("getbyid")]
-        public IActionResult GetById(int galleryId)
+        public IActionResult GetById(int postsId)
         {
-            var result = _postService.GetById(galleryId);
+            var result = _postService.GetById(postsId);
             if (result.Success)
             {
                 return Ok(result.Data);
@@ -53,14 +52,15 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        [Obsolete]
+       // [Obsolete]
         public async Task<IActionResult> AddAsync([FromForm] PostDto postDto)
         {
             string imageUrl = "";
             if (postDto.File != null)
             {
-                var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images");
-                if (!Directory.Exists(uploads))
+                postDto.VideoUrl = null;
+                var uploads = Path.Combine(_hostingEnvironment.WebRootPath, "Images\\Posts");
+               if (!Directory.Exists(uploads))
                 {
                     Directory.CreateDirectory(uploads);
                 }
@@ -71,7 +71,7 @@ namespace MutluGunlerFirini.WebAPI.Controllers
                     string[] separate = filename.Split('.');
                     string name = guid + "." + separate[1];
                     var filePath = Path.Combine(uploads, name);
-                    imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/" + name;
+                    imageUrl = "service.mutlugunlerfirini.com.tr/wwwroot/Images/Posts/" + name;
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
                         await postDto.File.CopyToAsync(fileStream);
@@ -79,6 +79,12 @@ namespace MutluGunlerFirini.WebAPI.Controllers
                 }
                 postDto.ImageUrl = imageUrl;
             }
+            if (postDto.VideoUrl != null)
+            {
+                postDto.ImageUrl = null;
+            }
+           
+            
             var result = _postService.Add(postDto);
             if (result.Success)
             {
@@ -89,8 +95,8 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        [Obsolete]
-        public async Task<IActionResult> UpdateAsync(PostDto postDto)
+        //[Obsolete]
+        public async Task<IActionResult> UpdateAsync([FromForm] PostDto postDto)
         {
             string imageUrl = "";
             if (postDto.File != null)
@@ -133,6 +139,11 @@ namespace MutluGunlerFirini.WebAPI.Controllers
                 }
                 postDto.ImageUrl = imageUrl;
             }
+
+            if (postDto.VideoUrl != null)
+            {
+                postDto.ImageUrl = null;
+            }
             var result = _postService.Update(postDto);
             if (result.Success)
             {
@@ -143,26 +154,29 @@ namespace MutluGunlerFirini.WebAPI.Controllers
         }
 
         [HttpPost("delete")]
-        [Obsolete]
+        //[Obsolete]
         public IActionResult Delete(Post post)
         {
-            try
+            if(post.ImageUrl != null)
             {
-                var deletes = Path.Combine(_hostingEnvironment.WebRootPath, "Images");
-                string[] paths = post.ImageUrl.Split('/');
-                string name = paths[paths.Length - 1];
-                if (Directory.Exists(deletes))
+                try
+                {
+                    var deletes = Path.Combine(_hostingEnvironment.WebRootPath, "Images");
+                    string[] paths = post.ImageUrl.Split('/');
+                    string name = paths[paths.Length - 1];
+                    if (Directory.Exists(deletes))
+                    {
+
+                        var filePath = Path.Combine(deletes, name);
+                        System.IO.File.Delete(filePath);
+                    }
+
+                }
+                catch (Exception)
                 {
 
-                    var filePath = Path.Combine(deletes, name);
-                    System.IO.File.Delete(filePath);
+                    throw;
                 }
-
-            }
-            catch (Exception)
-            {
-
-                throw;
             }
             var result = _postService.Delete(post);
             if (result.Success)

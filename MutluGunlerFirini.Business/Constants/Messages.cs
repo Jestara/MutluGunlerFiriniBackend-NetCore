@@ -25,5 +25,13 @@ namespace MutluGunlerFirini.Business.Constants
         public static string GalleryAdded = "Galeri başarıyla eklendi";
         public static string GalleryDeleted = "Galeri başarıyla silindi";
         public static string GalleryUpdated = "Galeri başarıyla güncellendi";
+
+        public static string PostAdded = "Post başarıyla eklendi";
+        public static string PostDeleted = "Post başarıyla silindi";
+        public static string PostUpdated = "Post başarıyla güncellendi";
+
+        public static string MutluTVAdded = "MutluTV başarıyla eklendi";
+        public static string MutluTVDeleted = "MutluTV başarıyla silindi";
+        public static string MutluTVUpdated = "MutluTV başarıyla güncellendi";
     }
 }

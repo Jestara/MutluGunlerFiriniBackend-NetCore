@@ -250,16 +250,8 @@ D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunler
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -367,3 +359,4 @@ C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGu
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Debug\netcoreapp3.1\MutluGunlerFirini.WebAPI.pdb
 C:\Users\Celil\Desktop\Yeni klasör (3)\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Debug\netcoreapp3.1\MutluGunlerFirini.WebAPI.genruntimeconfig.cache
 D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\MutluGunlerFirini.WebAPI.styles.css
+D:\Projects\Mutlu Günler Fırını\MutluGunlerFiriniBackend-NetCore\MutluGunlerFirini.WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll

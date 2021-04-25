@@ -32,6 +32,9 @@ namespace MutluGunlerFirini.Business.DependencyResolvers.Autofac
             builder.RegisterType<PostManager>().As<IPostService>();
             builder.RegisterType<EfPostDal>().As<IPostDal>();
 
+            builder.RegisterType<MutluTVManager>().As<IMutluTVService>();
+            builder.RegisterType<EfMutluTVDal>().As<IMutluTVDal>();
+
         }
     }
 }

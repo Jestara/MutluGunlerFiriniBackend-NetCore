@@ -36,7 +36,7 @@ namespace MutluGunlerFirini.WebAPI
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("http://localhost:4201", "http://localhost:4200", "https://mutlugunlerfirini.com.tr", "https://admin.mutlugunlerfirini.com.tr").AllowAnyHeader()
+                    builder.WithOrigins("http://localhost:4201", "http://localhost:4200", "www.mutlugunlerfirini.com.tr", "https://qrmenu.mutlugunlerfirini.com.tr/", "https://qrmenu.mutlugunlerfirini.com.tr", "https://www.qrmenu.mutlugunlerfirini.com.tr/", "https://www.qrmenu.mutlugunlerfirini.com.tr", "www.qrmenu.mutlugunlerfirini.com.tr", "https://www.mutlugunlerfirini.com.tr/", "http://www.mutlugunlerfirini.com.tr/", "https://mutlugunlerfirini.com.tr", "https://admin.mutlugunlerfirini.com.tr", "https://mutlugunlerfirini.com.tr/urunlerimiz", "https://mutlugunlerfirini.com.tr/product/", "https://mutlugunlerfirini.com.tr/mutlutv", "https://mutlugunlerfirini.com.tr/galeri").AllowAnyHeader()
                     .AllowAnyMethod().AllowCredentials();
                 });
             });
